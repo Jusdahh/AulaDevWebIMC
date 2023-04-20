@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #312f2f;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+#entrada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+#resultado{
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem;
+    align-items: center;
+}
+#btncalc{
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #fd968f 0%, #b12a5b 100%);
+    padding: 14px 32px;
+    border : none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35;
+    outline: none;
+}
+
+#btncalc p{
+    
+}
+
+.item{
+    margin: 0.35%;
+}
+
+.titulo{
+    font-size: 4rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #fd968f 0%, #b12a5b 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
