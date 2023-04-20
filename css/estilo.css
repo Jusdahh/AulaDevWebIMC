@@ -20,6 +20,7 @@ body{
     margin: 1rem;
     align-items: center;
 }
+
 #btncalc{
     font-size: 1rem;
     background-image: linear-gradient(to top, #fd968f 0%, #b12a5b 100%);
@@ -38,7 +39,26 @@ body{
     position: relative;
     z-index: 2;
     color: #fff;
-    
+}
+
+#btncalc:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4837ffff
+    transition: all 0.35s;
+    border-radius: 5px;
+}
+
+#btncalc:hover{
+    color: #fff;
+}
+
+#btncalc:hover:after{
+    width: 100%;
 }
 
 .item{
