@@ -48,7 +48,7 @@ body{
     left: 0;
     width: 0;
     height: 100%;
-    background: #4837ffff
+    background: #4837ffff;
     transition: all 0.35s;
     border-radius: 5px;
 }
