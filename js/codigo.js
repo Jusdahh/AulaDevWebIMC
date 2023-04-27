@@ -7,11 +7,10 @@ function calcular(){
     if(isNaN(peso) || isNaN(altura)){
         alert("Peso e/ou altura inválidos");
         return;
-    }
-    else if (imc < 18.5){
+    } else if (imc < 18.5){
         classificacao = "Peso inferior ao normal";
     } else if (imc <= 24.9){
-        classificacao = "Peso normal";
+        classificacao = "Peso normal, igual Diego";
     } else if (imc <= 29.9){
         classificacao = "Sobrepeso";
     } else{
